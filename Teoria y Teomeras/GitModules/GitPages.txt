@@ -1,0 +1,4 @@
+1. El nombre del repositorio debe ser el mismo que el domino. {Ejemplo.github.io}
+2. Luego de crear el repositorio vacío, vamos a settings y luego a pages.
+3. Esperar que el check
+4. MarkDown es muy interesante. {Dillinger.io}

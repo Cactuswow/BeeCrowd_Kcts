@@ -1,0 +1,8 @@
+1. Crear ramas por cada cambio importante
+    -Nombre-Utilidad/Versión
+
+2. Commit -m "Nombre corto
+
+Decripción del commit";
+
+3. Los issues son foros con labels sobre tareas a realizar

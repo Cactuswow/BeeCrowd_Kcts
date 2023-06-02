@@ -1,0 +1,4 @@
+1. git config user.name //Inicializar de forma local
+2. git switch -c "Nombre de la nueva rama" //Crea un a nueva rama y accedes directamente a ella
+3. gir merge "Nombre de la rama a actualizar"
+4. Git ignore {https://www.toptal.com/developers/gitignore}
