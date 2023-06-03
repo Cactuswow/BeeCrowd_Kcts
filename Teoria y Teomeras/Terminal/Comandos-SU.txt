@@ -1,0 +1,7 @@
+1. sudo password //Cambia la contraseña para acceder al super usuario, la contraseña inical es la de inicio de sesión
+2. su //Cambia al modo super usuario
+3. exit //Sale del modo su y de la terminal
+4. passwd //Cambia la contraseña del computador
+
+5. sudoreboot //Reinicia el PC
+6. sudohalt //Apaga el PC

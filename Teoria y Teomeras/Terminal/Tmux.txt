@@ -1,0 +1,33 @@
+1. tmux -v //Version de tmux
+2. tmux //Ingresa a tmux
+
+3. Ctrl + b //Short curt General, luego liberas las teclas {Los # indica si debe usar este prefijo} {Los $ indican si se debe mantener presionado}
+
+4. #t //Muestra la hora
+5. #" //Crea un panel horizontal
+6. #% //Crea un panel vertical
+7. #u //Muestra el indice de cada panel
+8. #{Arrow keys} //Mueve entre los paneles
+9. #o //Mueve entre los paneles
+10. exit //Cierra un panel
+
+11. ${Arrow keys} //Redimenciona un panel
+12. #: //Activa el prompt {La linea verde del bash}
+    - resize-pane -{UDLR} {cantidad} //Redimenciona un panel
+
+13. #c //Crea una nueva ventana
+14. #{numero} //Mueve entre las ventanas
+15  #{n || p} //Mueve entre las ventanas {n => next} {p => previous}
+16. #f //Muestra la cantidad de ventanas y los paneles en cada una. El * indica la ventana actual
+17. #, {nombre} //Nombra las ventanas
+
+18. tmux ls //Muestra las sesiones {attached significa la sesion actual}
+19. #$ //Renombra las sesiones
+20. #d /7Salimos a la terminal, no cierra la sesion
+21. tmux //crea tambien nuevas sesiones
+22. #( //Mueve entre las sesiones
+23. #s //Mueve entre las sesiones
+
+24. tmux kill-session -t {numero} //Elimibna por completo una sesión
+25. tmux new -s {nombre} //crea una nueva sesión con nombre
+26. tmux attach-session -t {nombre} //Ingresa directamente a una sesión

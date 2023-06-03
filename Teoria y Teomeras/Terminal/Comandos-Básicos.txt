@@ -1,0 +1,19 @@
+1. ls //Muestra todos los elementos en un directorio
+    -a //Muestra los archivos ocultos
+
+2. pwd //Muestra la ruta completa de una carpeta
+
+3. mkdir "Nombre de carpeta" //Crea carpetas
+
+4. touch "data.txt" //Crea un archivo con el nombre y extención deseados
+
+5. cp "data.txt {Directorio}" //Copia un archivo
+    -r //Copia los archivos internos de una carpeta
+
+6. mv "data.txt {Directorio}" //Mueve un archivo
+    -r //Aplica a los archivos internos tambien
+7. rm "data.txt" //Remueve un archivo
+    -r //Aplica a los archivos internos tambien
+
+8.nano "data.txt" //Crea archivos
+9.cat "data.txt" //Muestra el contenido de un archivo
