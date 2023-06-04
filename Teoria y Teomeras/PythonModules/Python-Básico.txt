@@ -1,0 +1,34 @@
+1. Al instalar Python, activar casilla {add Python to PATH}
+
+2. python {nombre de archivo} //Ejecuta archivo desde la terminal
+//Lista de palabras reservadas de Python {https://www.programiz.com/python-programming/keyword-list}
+
+3. type("Variable") //Muestra el tipo de dato que almacena una variable
+4. Variable1, Variable2 = Dato1, Dato2
+
+5. Sub-Lista = Lista[0:3:2] //Crea una lista nueva con los valores inidicados. El indice final no será tomado en cuenta. El último valor indica la cantidad de pasos o saltos. En este caso va de dos en dos. Con números negativos invierte la lista
+    -[Start : end]
+    -[Start : ]
+    -[ : end]
+    -[:]
+    -[::X]
+-{Funciona para todo tipo de arreglo}
+
+#Sección - Listas [] - list()
+
+6. Lista.insert(Indice, 'Dato'); //inserta un valor a la lista, el elemento en la posición se moverá a la siguiente.
+
+7. Lista.extends(Lista2); //Extiende la lista, sin modificar la del parentesis.
+8. Lista.remove('Dato'); //Elimina un elemento
+9. del lista[indice]; //Elimina el elemento por indice
+10. Lista.clear() //Limpia una lista, ahora es vacía
+
+11.lista.sort(reverse = true) //Ordena de forma desendente. 
+12. {min(Lista) - max(Lista)} //Devuelve el Numero menor o mayor
+
+13. Dato {not} in lista; //Busca un valor en la lista. Devuelve un bool
+14. lista.index(Dato); //Busca un dato en una lista, devuelve el indice
+
+#Sección - Tupla () - tuple()
+
+15.
