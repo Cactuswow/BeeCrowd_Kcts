@@ -6,3 +6,10 @@
 Decripción del commit";
 
 3. Los issues son foros con labels sobre tareas a realizar
+
+4. git switch -c "Nombre de la nueva rama" //Crea un a nueva rama y accedes directamente a ella
+
+5. git branch -D "Nombre de la rama"  //Elimina una rama
+
+6. git config color.status.branch 'Color'
+7, git status -s //Muestra todo minificado

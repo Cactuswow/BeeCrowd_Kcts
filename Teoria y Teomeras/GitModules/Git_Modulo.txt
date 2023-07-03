@@ -1,0 +1,52 @@
+1. git config user.name //Inicializar de forma local
+2. gir merge "Nombre de la rama a actualizar"
+3. Git ignore {https://www.toptal.com/developers/gitignore}
+
+4. git log //Historial de commits
+    --oneline : minificado
+    -n 'numero' : cuantos commits se quieren ver
+    --format : full, medium,  short
+
+5. git diff //Muestras las diferencias
+6. git stash //Guarda nuevos cambios del documento, pero los elimina del documento real
+    list : Muestra las cambios de stash
+    pop : restaurar los cambios
+        indice: restaura por posición
+    save 'nombre' : Guarda con nombre el stash
+    --include-untracked : Agregar archivos nuevos
+
+7. git show {identificador , este aparece en el git log}
+8. .gitignore {
+    **.js //Todos los archivos js y tambien los que se ecuentran dentro de otras carpetas
+    *.js //Por encima ^
+}
+
+9. git checkout  //Cuando hay un fallo en un merge
+    --ours : Conservar cambios en hijo
+    --theirs : Conservar cambios en padre
+
+10. git checkout 'nombre del archivo' Elimina los cambios antes de push
+
+11. git revert {identificador del commit}, revierte los cambios de un commit
+
+12. git reset {
+    --soft : revierte commit y se queda guardado en staging
+    --mixed o por defecto : revierte commit y se queda guardado
+    --hard : revierte commit y puff a todo
+}
+
+13. git rebase 'nombre de la rama' //Actualiza la rama hijo
+
+14. git commit --amend //Cambia el ultimo commit
+
+15. git cherry-pick {indice del commit} //Copia todos los cambios de un commit de otra rama
+
+16. Feature Based , Git flow , Trunk Based //Estrategia de WorkFlow de Git
+
+17. ssh-keygen -t ed25519 -C 'Correo electronico'
+18. eval "$(ssh-agent -s)"
+19. ssh-add 'ruta de la ssh'
+
+20. clip : 'la ruta del ssh'.pub // Luego de tener la llave en el portapapeles, vamos a gitHub y pegas la llave
+
+21. ssh -T git@github.com //Para confirma si todo está correcto

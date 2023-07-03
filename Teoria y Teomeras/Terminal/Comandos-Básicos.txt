@@ -17,3 +17,5 @@
 
 8.nano "data.txt" //Crea archivos
 9.cat "data.txt" //Muestra el contenido de un archivo
+
+10. clip //Copia al portapapeles
